@@ -1,0 +1,92 @@
+/* Uber Page */
+.uber-img {
+    width: 100%;
+    height: relative;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.body {
+    padding: 0;
+}
+
+.confirm-card {
+    border-radius: 15px;
+    margin: 12px 10px;
+    padding: 10px;
+    background-color: var(--theme-white);
+    border: none;
+    display: grid;
+    grid-template-columns: 8fr 3fr;
+}
+
+.confirm-sub {
+    font-size: 12px;
+    color: var(--theme-blue);
+}
+
+.confirm-address {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.confirm-disclaimer {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.confirm-section {
+    margin-bottom: 8px;
+}
+
+
+.confirm-button {
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--theme-blue);
+    color: white;
+    border-radius: 15px;
+    transition: all .3s
+}
+
+.confirm-button:hover {
+    opacity: .7;
+}
+
+.confirm-icon {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+.confirm-button-main {
+    font-size: 15px;
+}
+.confirm-button-sub {
+    font-size: 13px;
+    opacity: .7;
+}
+
+.confirmed-card {
+    border-radius: 15px;
+    margin: 12px 10px;
+    padding: 10px;
+    background-color: var(--theme-white);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirmed-icon {
+    font-size: 3.5em;
+    padding: 5px;
+    color: var(--theme-blue)
+}
+
+.confirmed-sub {
+    font-size: 12px;
+}

@@ -1,0 +1,109 @@
+/* The switch - the box around the slider */
+.switch {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 27.2px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20.8px;
+  width: 20.8px;
+  left: 3.2px;
+  bottom: 3.2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: var(--theme-blue);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px var(--theme-blue);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(20.8px);
+  -ms-transform: translateX(20.8px);
+  transform: translateX(20.8px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+/* Others */
+
+
+.body-description {
+  font-size: 12px;
+}
+
+.media-item {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.media-text {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.media-icon {
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  padding: 10px;
+}
+
+.card-flex {
+  margin-top: 5px;
+}
+
+.card-icon {
+  font-size: 1.5em;
+}
+
+.card-heading {
+  font-size: 15px;
+}

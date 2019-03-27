@@ -1,0 +1,145 @@
+:root {
+    --theme-blue: #1E88E5;
+    --theme-grey: gainsboro;
+    --theme-dark: #5e5e5e;
+    --theme-white: #ECEFF1;
+}
+
+* {
+    font-family: "Product Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+a, a:visited, a:active, a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    margin-top: 10px;
+    width: 370px;
+    height: 721.5px;
+    background-color: var(--theme-grey);
+    border-top: 25px solid black;
+    border-bottom: 25px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-radius: 5%;
+}
+
+.nav-bar {
+    height: 55px;
+    padding: 5px 20px;
+    background-color: var(--theme-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+
+.nav-icon {
+    font-size: 18px;
+    color: white;
+}
+
+.nav-header {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    color: white;
+}
+
+.nav-header-link {
+    color: white;
+}
+
+.nav-logo {
+    height: 30px;
+    transition: .3s;
+}
+
+.nav-logo:hover {
+    opacity: .8;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: var(--theme-dark)
+}
+
+.information-main {
+    font-size: 15px;
+}
+
+.information-sub {
+    font-size: 12px;
+}
+
+.card {
+    border-radius: 15px;
+    margin: 12px 10px;
+    padding: 10px 15px 20px 10px;
+    background-color: var(--theme-white);
+    border: none;
+    transition: all .3s;
+}
+
+.card:hover {
+    opacity: .6;
+}
+
+.card-flex {
+    display: grid;
+    grid-template-columns: 45px 1fr;
+    align-items: center;
+}
+
+.card-description {
+    font-size: 12px;
+    color: var(--theme-dark);
+    font-style:italic;
+    color: var(--theme-blue)
+}
+
+.card-icon {
+    color: var(--theme-blue);
+    margin-right: 10px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.card-heading {
+    font-size: 22px;
+}
+
+.back-card {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
+.back-icon {
+  margin: 0px 20px 0px 5px;
+}

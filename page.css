@@ -1,0 +1,46 @@
+.main {
+    border-radius: 15px;
+    margin: 20px 10px;
+    background-color: var(--theme-white);
+    border: none;
+}
+
+.head {
+    color: white;
+    background-color: var(--theme-blue);
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+}
+
+.body { 
+    padding: 15px 20px;
+}
+
+.head-back-link {
+    margin-left: 10px;
+}
+
+.head-back-icon {
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.head-back-icon:hover {
+    background-color: white;
+    color: var(--theme-blue);
+}
+
+.head-icon {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.head-flex {
+    display: flex;
+    align-items: center;
+}

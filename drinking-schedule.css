@@ -1,0 +1,120 @@
+
+/* Others */
+
+
+.body-description {
+  font-size: 12px;
+}
+
+.media-item {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.media-text {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.media-icon {
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  padding: 10px;
+}
+
+.card-flex {
+  margin-top: 5px;
+}
+
+.card-icon {
+  font-size: 1.5em;
+}
+
+.card-heading {
+  font-size: 15px;
+}
+
+.back-card {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.back-icon {
+  margin: 0px 20px 0px 5px;
+}
+
+.schedule {
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.sub-schedule {
+    margin-bottom: 20px
+}
+
+.schedule-input {
+    border: none;
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+    transition: all .7s;
+}
+
+.schedule-input:hover {
+    opacity: .5;
+}
+
+.schedule-heading {
+    font-size: 18px;
+    color: var(--theme-blue);
+}
+
+.schedule-button {
+    border: none;
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--theme-blue);
+    transition: .3s;
+}
+
+.schedule-button:hover {
+    opacity: .7;
+}
+
+.s
+
+i {
+    padding-right: 5px;
+}
+
+.schedule-card {
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+}
+
+.schedule-card-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    color: var(--theme-blue)
+}
+
+input:focus {
+    outline: none;
+    opacity: .5;
+}

@@ -1,0 +1,21 @@
+.body {
+    padding: 0;
+}
+
+    .mapouter {
+    position: relative;
+    text-align: right;
+    height: 470px;
+    width: 340px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 470px;
+    width: 340px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
