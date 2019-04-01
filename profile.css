@@ -67,10 +67,20 @@ input:checked + .slider:before {
 .body {
     padding: 0 10px;
     display: grid;
-    grid-template-columns: 3fr 4fr;
+    grid-template-columns: 4fr 4fr;
     grid-template-rows: 2.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     height: 400px;
     grid-gap: 0px 25px;
+    font-size: 13px;
+}
+
+.body-edit {
+    padding: 0 10px;
+    display: grid;
+    grid-template-columns: 7fr 8fr;
+    grid-template-rows: 2.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 400px;
+    grid-gap: 0px 5px;
     font-size: 13px;
 }
 
@@ -103,12 +113,13 @@ input:checked + .slider:before {
 }
 
 .left {
-    justify-content:center;
+    margin-left: 15px;
+    justify-content:left;
     font-weight: bold;
 }
 
 .right {
-    justify-content:center;
+    justify-content:left;
 }
 
 .socials {
