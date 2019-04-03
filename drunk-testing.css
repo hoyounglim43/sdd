@@ -1,0 +1,64 @@
+.card {
+    border-radius: 15px;
+    margin: 12px 10px;
+    background-color: var(--theme-white);
+    border: none;
+    transition: all .3s;
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+}
+
+.body {
+    font-size: 13px;
+}
+
+.test-text-heading {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.test-text-description {
+    font-size: 13px;
+}
+
+.test-icon-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: var(--theme-blue)
+}
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.back-card {
+    padding: 10px;
+}
+
+.card-feature {
+    padding-top: 15px;
+}
+
+.video-card {
+    border-radius: 15px;
+    margin: 12px 10px;
+    padding: 20px 10px;
+    background-color: var(--theme-white);
+    border: none;
+    transition: all .3s;
+}
+
+.video-card:hover {
+    opacity: .6;
+}
+
+.test-text-heading-video {
+    padding-bottom: 10px;
+}
+
+.

@@ -180,3 +180,7 @@ input:focus {
     outline: none;
     opacity: .5;
 }
+
+.back-card {
+    padding: 10px;
+}
